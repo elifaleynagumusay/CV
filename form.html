@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CV Hazırlama(Form Oluşturma)</title>
+</head>
+<body style="background-color:rgb(186, 214, 243)">
+    <form action="bilgi.html">
+          <div   align ="center" style="width:500px; height:30px;
+      
+          border-top-style:solid;
+      
+          border-bottom-style:solid;
+      
+          border-left-style:double;
+      
+          border-right-style:double;
+
+          border-color:navy;
+          
+          border-width: 7px;
+          
+          border-radius: 100px;"
+       < legend style="font-weight: bold;"> Kişisel Bilgiler</legend></div>
+
+<table cellpadding="10px" cellspacing="10px">
+<tr>
+
+        <td>Adı:</td>
+        <td><input type="text" name="adi"></td> 
+</tr>
+
+<tr>
+        <td>Soyadı:</td>
+        <td><input type="text" name="soyadi"></td>
+
+</tr>
+
+<tr>
+
+        <td>Email:</td>
+        <td><input type="email" name="email"></td>
+
+</tr>
+
+<tr>
+        <td>Cinsiyet:</td>
+        <td><input type="radio" name="radio" value="erkek">Erkek
+        <input type="radio" name="radio" value="kadın">Kadın
+        </td>
+
+</tr>
+
+<tr>
+        <td>Adres:</td>
+        <td>
+            <textarea name="adres" cols="20" rows="5" > </textarea>
+        </td>
+
+</tr>
+
+
+
+</table>
+
+<div   align="center" style="width:500px; height:30px;
+      
+border-top-style:solid;
+
+border-bottom-style:solid;
+
+border-left-style:double;
+
+border-right-style:double;
+
+border-color: navy;
+
+border-width: 7px;
+
+border-radius: 100px;"
+ < legend style="width: 800px; height: 200px;" > Kişisel Tanıtım </legend></div>
+
+<table cellpadding="10px" cellspacing="10px">
+
+<tr>
+        <td>Programlama :</td>
+        <td><select id="programlama"> 
+        <option> Javascript</option>
+        <option> Html</option>
+        <option> Css</option>
+    </select></td>
+
+</tr>
+
+<tr>
+    <td>Html-Css'in hangi tarafıyla ilgilisiniz :</td>
+    <td>
+        <input list="yuz">
+        <datalist id="yuz">
+            <option value="Backend"></option>
+            <option value="Frontend"></option>
+        </datalist>
+    </td>
+</tr>
+
+<tr>
+
+        <td>Hobiler:</td>
+        <td>
+            <input type="checkbox" name="kitap" value="kitap"> Kitap Okumak
+            <input type="checkbox" name="müzik" value="müzik"> Müzik Dinlemek
+            <input type="checkbox" name="spor" value="spor"> Spor Yapmak
+            <input type="checkbox" name="satranc" value="satranc"> Satranç Oynamak
+
+        </td>
+</tr>
+
+<tr>
+        <td>Kişisel tanıtımınıza eklemek  istediğiniz bilgileri girebilirsiniz :</td>
+        <td>
+        <textarea name="adres" cols="20" rows="5"></textarea>
+
+        </td>
+
+
+
+</tr>
+
+<tr>
+    <td>
+        <input type="submit" value="Gönder">
+        <input type="button" value="Düzenle">
+    </td>
+
+</tr>
+
+
+
+
+
+
+
+
+
+
+</table>
+
+
+
+
+
+
+    </form>
+
+</body>
+</html>
